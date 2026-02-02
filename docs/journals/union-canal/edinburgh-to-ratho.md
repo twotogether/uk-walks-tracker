@@ -24,10 +24,10 @@
 
 ## Route
 
-| Section Walked  | Distance | Date |
+| Section Walked  | Distance | Date Walked |
 | --------------- | -------- | ---- |
 | Lochrin basin to Water to Leith Visitor Centre | 4 km | Multiple days |
-| Water to Leith Visitor Centre to Ratho | 9.4 km | 17/1/2026 |
+| Water to Leith Visitor Centre to Ratho | 9.4 km | 17-JAN-2026 |
 
 ## Description
 
@@ -46,7 +46,10 @@ Along the way, you'll pass several impressive historic structures:
   
 ## Notes
 
-- **Facilities**: Cafés and shops at the start in Edinburgh; limited facilities between. The Bridge Inn at Ratho is a good destination. The ASDA and Sainsbury's at Slateford are a short detour from the canal.
+- **Cafes, Restaurants, Pubs, and Grocery Shops**: 
+  - Cafés and shops at the start in Edinburgh.
+  - Limited facilities along the way but their is an ASDA and a Sainsbury's at Slateford a short detour from the canal.
+  - `The Bridge Inn` at Ratho is a good stop for a drink. If you are planing to eat here, book ahead. 
 - **Public Toilets**: None at start. Lothian Road has several pubs and cafes. There is a public toilet at the Water of Leith visitor centre cafe (open 10 am to 4 pm and donations encouraged). No public toilets in Ratho.
 - **Safety**: Watch for cyclists on the towpath; most are considerate, but stay alert.
 - **Wildlife**: Look out for kingfishers, herons, and other waterfowl along the canal.

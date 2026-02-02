@@ -18,9 +18,9 @@ COLOR_PALETTE = [
     "#6495ED",      # Cornflower blue
     "#FFD700",      # Gold
     "#FF6B6B",      # Red
-    "#87CEEB",      # Sky blue
+    "#800000",      # Maroon
     "#DDA0DD",      # Plum
-    "#F0E68C",      # Khaki
+    "#F29239",      # Orange
     "#FFB6C1",      # Light pink
     "#90EE90",      # Light green
     "#20B2AA",      # Light sea green
@@ -80,13 +80,14 @@ if "walks" not in data:
 
 # Set of existing gpx entries, normalised
 existing_gpx = {Path(w["gpx"]).as_posix() for w in data["walks"]}
+
 new_walks_added = False
 
 def make_human_name(stem: str) -> str:
     """Convert filename into readable title."""
     name = stem.replace("-", " ")
     name = name.replace("  ", " ")
-    # Capitalise first letter of each word but keep apostrophes correct
+    # Capitalize first letter of each word but keep apostrophes correct
     return " ".join(word.capitalize() for word in name.split())
 
 # Scan all GPX recursively
@@ -138,10 +139,17 @@ for walk in data.get("walks", []):
     # Parse GPX
     with open(gpx_path, "r", encoding="utf-8") as gpx_file:
         gpx = gpxpy.parse(gpx_file)
+
+        # Handle tracks (existing functionality)
         for track in gpx.tracks:
             for segment in track.segments:
                 for point in segment.points:
                     coords.append([point.latitude, point.longitude])
+
+        # Handle routes (new functionality)
+        for route in gpx.routes:
+            for point in route.points:
+                coords.append([point.latitude, point.longitude])
 
     if not coords:
         continue

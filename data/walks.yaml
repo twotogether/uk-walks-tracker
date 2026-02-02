@@ -2,12 +2,39 @@ walks:
 - name: Aberdour To Kirkcaldy
   gpx: gpx/fife-coast-path/aberdour-to-kirkcaldy.gpx
   journal: journals/fife-coast-path/aberdour-to-kirkcaldy.md
-- name: South Queensferry To Boness
-  gpx: gpx/john-muir-way/south-queensferry-to-boness.gpx
-  journal: journals/john-muir-way/south-queensferry-to-boness.md
 - name: Dunstanburgh To Alnmouth
   gpx: gpx/northumberland-coast-path/dunstanburgh-to-alnmouth.gpx
   journal: journals/northumberland-coast-path/dunstanburgh-to-alnmouth.md
 - name: Edinburgh To Ratho
   gpx: gpx/union-canal/edinburgh-to-ratho.gpx
   journal: journals/union-canal/edinburgh-to-ratho.md
+- name: Winchburgh To Ratho
+  gpx: gpx/union-canal/winchburgh-to-ratho.gpx
+  journal: journals/union-canal/winchburgh-to-ratho.md
+- name: Aberlady To North Berwick
+  gpx: gpx/john-muir-way/aberlady-to-north-berwick.gpx
+  journal: journals/john-muir-way/aberlady-to-north-berwick.md
+- name: East Linton To Dunbar
+  gpx: gpx/john-muir-way/east-linton-to-dunbar.gpx
+  journal: journals/john-muir-way/east-linton-to-dunbar.md
+- name: Prestongrange To Aberlady
+  gpx: gpx/john-muir-way/prestongrange-to-aberlady.gpx
+  journal: journals/john-muir-way/prestongrange-to-aberlady.md
+- name: Slateford To The Jewel
+  gpx: gpx/john-muir-way/slateford-to-the-jewel.gpx
+  journal: journals/john-muir-way/slateford-to-the-jewel.md
+- name: The Jewel To Prestongrange
+  gpx: gpx/john-muir-way/the-jewel-to-prestongrange.gpx
+  journal: journals/john-muir-way/the-jewel-to-prestongrange.md
+- name: North Berwick To East Linton
+  gpx: gpx/john-muir-way/north-berwick-to-east-linton.gpx
+  journal: journals/john-muir-way/north-berwick-to-east-linton.md
+- name: South Queensferry To Boness
+  gpx: gpx/john-muir-way/south-queensferry-to-boness.gpx
+  journal: journals/john-muir-way/south-queensferry-to-boness.md
+- name: South Queensferry To Slateford
+  gpx: gpx/john-muir-way/south-queensferry-to-slateford.gpx
+  journal: journals/john-muir-way/south-queensferry-to-slateford.md
+- name: Buckie To Findlater Castle
+  gpx: gpx/moray-coast-path/buckie-to-findlater-castle.gpx
+  journal: journals/moray-coast-path/buckie-to-findlater-castle.md

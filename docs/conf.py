@@ -40,5 +40,7 @@ html_theme = "sphinx_rtd_theme"
 html_theme_options = {
     "collapse_navigation": False,  # keep all sidebar entries expanded
     "navigation_depth": 2,         # max levels to show
+    "collapse_navigation": True,
+    "sticky_navigation": True,
 }
 
