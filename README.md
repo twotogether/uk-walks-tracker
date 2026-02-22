@@ -19,41 +19,35 @@ This Python tool transforms your GPX files into a beautiful interactive map, all
 2. Place your GPX files in the `gpx` folder following the naming convention:
 
     `[start]-to-[destination].gpx`
-    
-    Example: `s-queensferry-to-boness.gpx`
 
-3. Run the update script:
+    Example: `south-queensferry-to-boness.gpx`
+
+3. Install dependencies:
 
     ```bash
-    python scripts/update_uk_walks.py
+    pip install -r requirements.txt
     ```
 
-    - New GPX files will automatically be added to `data/walks.yaml`.  
-    - Folder colors are assigned and saved to `data/folder_colors.yaml`.  
-    - The interactive map is generated and saved in `docs/map/index.html`.
-
-    > ⚠️ If you delete a GPX file, you must manually remove the entry from `walks.yaml`.
-
-4. Generate journal Markdown files (optional, if not auto-generated):
+4. Run the build pipeline:
 
     ```bash
-    python scripts/create_journals.py
+    python scripts/build.py
     ```
 
-4. Build the Sphinx documentation:
+    This single command will:
+    - Scan GPX folder and update `data/walks.yaml`
+    - Assign colors to walk folders in `data/folder_colors.yaml`
+    - Create/update journal markdown files in `docs/journals/`
+    - Generate the interactive map in `docs/map/index.html`
+    - Build Sphinx documentation in `docs/_build/html/`
+
+    > ⚠️ If you delete a GPX file, manually remove it from `walks.yaml`.
+
+5. View the output locally:
 
     ```bash
-    cd docs
-    make html
-    ```
-
-    - The homepage shows the embedded map.  
-    - Sidebar displays all walks organised by region.  
-
-5. Verify the output locally by opening:
-
-    ```bash
-    open _build/html/index.html  # or navigate in your file browser
+    open docs/_build/html/index.html  # macOS
+    # or navigate in your file browser to docs/_build/html/index.html
     ```
 
 ## Output

@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy
 
 on:
   push:
@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
-    runs-on: ubuntu-24.04
+  build:
+    runs-on: ubuntu-latest
     permissions:
       contents: write
 
@@ -17,8 +17,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Build artifacts already exist in docs/_build/html, so just deploy
-      - name: Deploy to gh-pages
+      # 2️⃣ Setup Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # 3️⃣ Install dependencies
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # 4️⃣ Run build pipeline
+      - name: Build documentation and assets
+        run: python scripts/build.py
+
+      # 5️⃣ Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

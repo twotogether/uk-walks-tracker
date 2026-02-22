@@ -1,4 +1,7 @@
-folium
-PyYAML
-gpxpy
-geopy
+folium>=0.14.0
+PyYAML>=6.0
+gpxpy>=1.6
+geopy>=2.4
+sphinx>=7.0
+sphinx-rtd-theme>=2.0
+myst-parser>=2.0

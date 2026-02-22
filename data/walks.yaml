@@ -38,3 +38,6 @@ walks:
 - name: Buckie To Findlater Castle
   gpx: gpx/moray-coast-path/buckie-to-findlater-castle.gpx
   journal: journals/moray-coast-path/buckie-to-findlater-castle.md
+- name: Winchburgh To Linlithgow
+  gpx: gpx/union-canal/winchburgh-to-linlithgow.gpx
+  journal: journals/union-canal/winchburgh-to-linlithgow.md

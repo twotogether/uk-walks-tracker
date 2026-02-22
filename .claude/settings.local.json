@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m py_compile:*)",
+      "Bash(python scripts/build.py:*)",
+      "Bash(python -m sphinx:*)"
+    ]
+  }
+}
