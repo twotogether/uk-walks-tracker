@@ -32,9 +32,16 @@ from create_journals import create_journals
 
 def build_sphinx():
     """Build Sphinx documentation using sphinx-build."""
+    import shutil
+
     print("\n" + "=" * 60)
     print("📚 Building Sphinx documentation...")
     print("=" * 60 + "\n")
+
+    # Clean doctrees cache to avoid stale cache issues
+    doctrees_dir = DOCS_DIR / "_build" / "doctrees"
+    if doctrees_dir.exists():
+        shutil.rmtree(doctrees_dir)
 
     # Use python -m sphinx for cross-platform compatibility
     result = subprocess.run(

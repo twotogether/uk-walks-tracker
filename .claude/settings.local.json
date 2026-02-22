@@ -3,7 +3,9 @@
     "allow": [
       "Bash(python -m py_compile:*)",
       "Bash(python scripts/build.py:*)",
-      "Bash(python -m sphinx:*)"
+      "Bash(python -m sphinx:*)",
+      "Bash(pip install:*)",
+      "Bash(git add:*)"
     ]
   }
 }
