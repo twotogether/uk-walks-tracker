@@ -5,7 +5,8 @@
       "Bash(python scripts/build.py:*)",
       "Bash(python -m sphinx:*)",
       "Bash(pip install:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }

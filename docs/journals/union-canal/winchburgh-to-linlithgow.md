@@ -31,24 +31,22 @@
 
 ## Description
 
-A scenic and leisurely walk along the Union Canal, one of Scotland's most picturesque inland waterways. The Union Canal connects Edinburgh to Falkirk and is renowned for its peaceful towpath and rich industrial heritage.
+A scenic and leisurely walk along the Union Canal, one of Scotland's most picturesque inland waterways. The Union Canal connects Edinburgh to Falkirk.
 
 This particular stretch from Winchburgh to Linlithgow is a popular section, especially for families and less experienced walkers. The canal passes through charming villages and alongside historic sites. The path is well-maintained and largely flat, making it an excellent choice for a relaxing day out.
 
 Key highlights include:
 - **Winchburgh Basin** - Starting point with good facilities
-- **Philipstoun Viaduct** - Historic engineering structure
-- **Champany Inn** - Halfway point with refreshment options
+- **The Park Bistro** - Restaurant along the canal 
 - **Linlithgow Loch and Palace** - Arrival in the historic royal town
 
 The walk offers beautiful reflections of trees and sky in the still water, particularly lovely in spring and autumn. The towpath is shaded in many sections, making it comfortable for summer walks.
 
 ## Notes
 
-- The Union Canal is maintained by Scottish Canals
-- Path is suitable for cyclists, pushchairs, and wheelchairs
-- Excellent for birdwatching - look out for herons, grebes, and ducks
-- Picnic areas available at various points along the route
-- Facilities (toilets, cafes) at both start and end points
-- Return journey: Train from Linlithgow to Edinburgh, then bus X19 back to Winchburgh
-- Official Union Canal information: www.scottishcanals.co.uk/union-canal
+- **Cafes, Restaurants, Pubs, and Grocery Shops**:
+  - There's a Sainsbury's at the starting point.
+  - Lots of restaurants and cafes in Linlithgow
+- **Public Toilets**: Winchburgh Sainsbury's. Public toilets in Linlithgow.
+- **Safety**: Watch for cyclists on the towpath; most are considerate, but stay alert.
+- **Wildlife**: Look out for kingfishers, swans, and other waterfowl along the canal.
