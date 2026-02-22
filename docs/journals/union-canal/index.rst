@@ -6,4 +6,6 @@ Union Canal
    :glob:
    :hidden:
 
-   *
+   edinburgh-to-ratho.md
+   winchburgh-to-ratho.md
+   winchburgh-to-linlithgow.md

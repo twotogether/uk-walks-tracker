@@ -15,7 +15,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 WALKS_YAML = BASE_DIR / "data" / "walks.yaml"
 GPX_FOLDER = BASE_DIR / "gpx"
-MAP_DIR = BASE_DIR / "docs" / "map"
+MAP_DIR = BASE_DIR / "docs" / "_build" / "html" / "map"
 FOLDER_COLORS_FILE = BASE_DIR / "data" / "folder_colors.yaml"
 SITE_ROOT = "https://twotogether.github.io/uk-walks-tracker"
 

@@ -3,7 +3,7 @@ UK Walks Tracker
 
 .. raw:: html
 
-    <iframe src="../../map/index.html" width="100%" height="600px" style="border:1px solid #ccc; border-radius:8px;"></iframe>
+    <iframe src="map/index.html" width="100%" height="600px" style="border:1px solid #ccc; border-radius:8px;"></iframe>
 
 .. toctree::
    :maxdepth: 2
