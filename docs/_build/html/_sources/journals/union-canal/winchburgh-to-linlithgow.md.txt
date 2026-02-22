@@ -35,11 +35,6 @@ A scenic and leisurely walk along the Union Canal, one of Scotland's most pictur
 
 This particular stretch from Winchburgh to Linlithgow is a popular section, especially for families and less experienced walkers. The canal passes through charming villages and alongside historic sites. The path is well-maintained and largely flat, making it an excellent choice for a relaxing day out.
 
-Key highlights include:
-- **Winchburgh Basin** - Starting point with good facilities
-- **The Park Bistro** - Restaurant along the canal 
-- **Linlithgow Loch and Palace** - Arrival in the historic royal town
-
 The walk offers beautiful reflections of trees and sky in the still water, particularly lovely in spring and autumn. The towpath is shaded in many sections, making it comfortable for summer walks.
 
 ## Notes

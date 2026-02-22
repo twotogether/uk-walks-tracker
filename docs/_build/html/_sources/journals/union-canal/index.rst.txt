@@ -1,9 +1,22 @@
 Union Canal
 ===========
 
+The Union Canal is one of Scotland's most picturesque inland waterways, stretching from Edinburgh to Falkirk. This historic canal, built in the early 19th century, features a peaceful towpath ideal for leisurely walks. The canal passes through charming villages, alongside historic sites, and through scenic countryside, making it a perfect destination for walkers of all abilities.
+
+The walks documented here showcase different sections of the Union Canal, each offering unique views and experiences along this remarkable heritage route.
+
+Walks on the Union Canal
+------------------------
+
+* **Edinburgh To Ratho** - A scenic urban to suburban walk starting from the heart of Edinburgh
+* **Winchburgh To Ratho** - A scenic journey through canal-side villages and countryside
+* **Winchburgh To Linlithgow** - An easy, accessible walk ending at the historic royal town of Linlithgow
+
 .. toctree::
    :maxdepth: 2
    :glob:
    :hidden:
 
-   *
+   edinburgh-to-ratho.md
+   winchburgh-to-ratho.md
+   winchburgh-to-linlithgow.md
