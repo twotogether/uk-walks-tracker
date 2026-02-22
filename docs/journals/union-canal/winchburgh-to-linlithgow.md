@@ -14,23 +14,20 @@
 
 ## Getting There
 
-**Start (Winchburgh):**
-- **Train**: Winchburgh Station (ScotRail - Fife Circle Line)
-- **Bus**: Stagecoach services to Winchburgh
-- **Parking**: Parking available near the canal basin
+**Start:** Winchburgh Sainbury's
+- **Train**: None
+- **Bus**: Lothian bus X19 services to Winchburgh
 
-**End (Linlithgow):**
-- **Train**: Linlithgow Station (ScotRail - North Berwick Line)
-- **Bus**: Stagecoach services from Linlithgow
-- **Parking**: Town car parks in Linlithgow
+**End:** Dudley the Cat statue in Linlithgow / across the Linlithgow canal centre
+- **Train**: Linlithgow Station
+- **Bus**: Midland Bluebird services around town
 
 ## Route
 
 | Section Walked  | Distance | Date |
 | --------------- | -------- | ---- |
-| Winchburgh to Philipstoun | 3.5 km | |
-| Philipstoun to Champany Inn | 2.8 km | |
-| Champany Inn to Linlithgow | 3.6 km | |
+| Winchburgh to Philpstoun | 3.5 km | 22-FEB-2026 |
+| Philpstoun to Linlithgow | 6.4 km | 22-FEB-2026|
 
 ## Description
 
@@ -53,5 +50,5 @@ The walk offers beautiful reflections of trees and sky in the still water, parti
 - Excellent for birdwatching - look out for herons, grebes, and ducks
 - Picnic areas available at various points along the route
 - Facilities (toilets, cafes) at both start and end points
-- Return journey can be made by train between Winchburgh and Linlithgow stations
+- Return journey: Train from Linlithgow to Edinburgh, then bus X19 back to Winchburgh
 - Official Union Canal information: www.scottishcanals.co.uk/union-canal
