@@ -9,7 +9,6 @@
 | **Duration** | 3 hrs |
 | **Elevation Gain** | Minimal |
 | **Terrain** | Countryside footpaths |
-| **Accessibility** | Not accessible |
 | **Can be done by public transport** | Yes |
 
 ## Getting There

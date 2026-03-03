@@ -10,7 +10,6 @@
 | **Type** | Linear |
 | **Elevation Gain** | Minimal |
 | **Terrain** | Towpath, canal-side path, urban trails |
-| **Accessibility** | Mostly flat and accessible |
 | **Can be done by public transport** | Yes |
 
 ## Getting There

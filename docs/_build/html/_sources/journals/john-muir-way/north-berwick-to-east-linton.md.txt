@@ -9,7 +9,6 @@
 | **Duration** | 3 hrs |
 | **Elevation Gain** | Minimal |
 | **Terrain** | Country footpaths |
-| **Accessibility** | Some parts are not accessible |
 | **Can be done by public transport** | Yes |
 
 >NOTE: This does not include climbing the North Berwick Law.

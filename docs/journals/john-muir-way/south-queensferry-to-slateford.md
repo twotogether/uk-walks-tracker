@@ -9,7 +9,6 @@
 | **Duration** | 4.5 - 5.5 hours |
 | **Elevation Gain** | 160 m - top of Corstorphine Hill |
 | **Terrain** | Water of Leith walkway, urban paths, parkland |
-| **Accessibility** | Mostly flat and accessible except for Corstorphine Hill which can be bypassed |
 | **Can be done by public transport** | Yes |
 
 ## Getting There

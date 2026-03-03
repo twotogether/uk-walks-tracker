@@ -11,7 +11,6 @@
 | **Type** | Double back |
 | **Elevation Gain** | 141 m |
 | **Terrain** | Up and down, hilly|
-| **Accessibility** | No |
 | **Can be done by public transport** | Yes |
 
 ## Getting There

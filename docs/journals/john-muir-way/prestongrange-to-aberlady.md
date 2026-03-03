@@ -9,7 +9,6 @@
 | **Duration** | |
 | **Elevation Gain** | |
 | **Terrain** | |
-| **Accessibility** | |
 | **Can be done by public transport** | |
 
 ## Getting There

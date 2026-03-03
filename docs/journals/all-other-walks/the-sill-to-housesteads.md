@@ -11,7 +11,6 @@
 | **Type** | Circular |
 | **Elevation Gain** | 320 m |
 | **Terrain** | Lots of up and down the crags; return path is very boggy (Feb) |
-| **Accessibility** | Not accessible |
 | **Can be done by public transport** | Yes |
 
 ## Getting There
