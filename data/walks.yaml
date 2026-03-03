@@ -41,3 +41,9 @@ walks:
 - name: Winchburgh To Linlithgow
   gpx: gpx/union-canal/winchburgh-to-linlithgow.gpx
   journal: journals/union-canal/winchburgh-to-linlithgow.md
+- name: The Sill To Housesteads
+  gpx: gpx/all-other-walks/the-sill-to-housesteads.gpx
+  journal: journals/all-other-walks/the-sill-to-housesteads.md
+- name: The Sill To Winshields
+  gpx: gpx/all-other-walks/the-sill-to-winshields.gpx
+  journal: journals/all-other-walks/the-sill-to-winshields.md

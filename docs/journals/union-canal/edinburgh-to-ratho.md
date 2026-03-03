@@ -7,6 +7,7 @@
 | **Difficulty** | Easy to moderate |
 | **Distance** | 13.4 km |
 | **Duration** | 3 - 3.5 hours |
+| **Type** | Linear |
 | **Elevation Gain** | Minimal |
 | **Terrain** | Towpath, canal-side path, urban trails |
 | **Accessibility** | Mostly flat and accessible |
@@ -53,4 +54,74 @@ Along the way, you'll pass several impressive historic structures:
 - **Public Toilets**: None at start. Lothian Road has several pubs and cafes. There is a public toilet at the Water of Leith visitor centre cafe (open 10 am to 4 pm and donations encouraged). No public toilets in Ratho.
 - **Safety**: Watch for cyclists on the towpath; most are considerate, but stay alert.
 - **Wildlife**: Look out for kingfishers, herons, and other waterfowl along the canal.
+
+## Photos
+
+<div class="image-gallery">
+
+<div class="image-item">
+
+![Slateford Viaduct](images/_DSF4141.jpg)
+
+<div class="image-caption">Slateford Viaduct</div>
+
+</div>
+
+<div class="image-item">
+
+![Wester Hailes High Rises](images/_DSF4145.jpg)
+
+<div class="image-caption">Wester Hailes High Rises</div>
+
+</div>
+
+<div class="image-item">
+
+![Entering the West Lothian countryside](images/_DSF4176.jpg)
+
+<div class="image-caption">Entering the West Lothian countryside</div>
+
+</div>
+
+<div class="image-item">
+
+![Scott Russell Aqueduct over Edinburgh Bypass](images/_DSF4166.jpg)
+
+<div class="image-caption">Scott Russell Aqueduct over Edinburgh Bypass</div>
+
+</div>
+
+<div class="image-item">
+
+![Cold stretches along the Union Canal towpath](images/_DSF4184.jpg)
+
+<div class="image-caption">Cold stretches along the Union Canal towpath</div>
+
+</div>
+
+<div class="image-item">
+
+![Union Canal towpath](images/_DSF4179.jpg)
+
+<div class="image-caption">Union canal towpath</div>
+
+</div>
+
+<div class="image-item">
+
+![The old bridge at Ratho](images/_DSF4196.jpg)
+
+<div class="image-caption">The old bridge at Ratho</div>
+
+</div>
+
+<div class="image-item">
+
+![Ratho Bridge Inn](images/_DSF4204.jpg)
+
+<div class="image-caption">Ratho Bridge Inn</div>
+
+</div>
+
+</div>
 

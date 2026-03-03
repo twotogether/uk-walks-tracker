@@ -20,16 +20,16 @@ FOLDER_COLORS_FILE = BASE_DIR / "data" / "folder_colors.yaml"
 SITE_ROOT = "https://twotogether.github.io/uk-walks-tracker"
 
 COLOR_PALETTE = [
-    "#98FB98",      # Pale green
-    "#6495ED",      # Cornflower blue
-    "#FFD700",      # Gold
-    "#FF6B6B",      # Red
-    "#800000",      # Maroon
-    "#DDA0DD",      # Plum
-    "#F29239",      # Orange
-    "#FFB6C1",      # Light pink
-    "#90EE90",      # Light green
-    "#20B2AA",      # Light sea green
+    "#2E8B57",      # Sea green
+    "#1E3A8A",      # Dark blue
+    "#B8860B",      # Dark goldenrod
+    "#DC143C",      # Crimson
+    "#8B0000",      # Dark red
+    "#8B008B",      # Dark magenta
+    "#D35400",      # Dark orange
+    "#C71585",      # Medium violet red
+    "#3CB371",      # Medium sea green
+    "#008B8B",      # Dark cyan
 ]
 
 

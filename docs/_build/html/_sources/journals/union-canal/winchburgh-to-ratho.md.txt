@@ -7,6 +7,7 @@
 | **Difficulty** | Easy |
 | **Distance** | 12.9 KM |
 | **Duration** | 3 hrs |
+| **Type** | Linear |
 | **Elevation Gain** | Minimal |
 | **Terrain** | Towpath, canal-side path, paved |
 | **Accessibility** | In parts |
@@ -61,3 +62,89 @@
 - **Public Toilets**: Winchburgh Sainsbury's. There is a Lidl and a Aldi at Broxburn. No public toilets in Ratho.
 - **Safety**: Watch for cyclists on the towpath; most are considerate, but stay alert.
 - **Wildlife**: Look out for kingfishers, herons, and other waterfowl along the canal.
+
+## Photos
+
+<div class="image-gallery">
+
+<div class="image-item">
+
+![Winchburgh marina](images/_DSF4319.jpg)
+
+<div class="image-caption">Winchburgh marina</div>
+
+</div>
+
+<div class="image-item">
+
+![Union Canal bridge just outside Winchburgh](images/_DSF4322.jpg)
+
+<div class="image-caption">Union Canal bridge just outside Winchburgh</div>
+
+</div>
+
+<div class="image-item">
+
+![Niddry castle and shale bing](images/_DSF4332.jpg)
+
+<div class="image-caption">Niddry castle and shale bing</div>
+
+</div>
+
+<div class="image-item">
+
+![Near the Almond Aqueduct towards Ratho](images/_DSF4400.jpg)
+
+<div class="image-caption">Near the Almond Aqueduct towards Ratho</div>
+
+</div>
+
+<div class="image-item">
+
+![Greendykes Bing near Broxburn](images/_DSF4351.jpg)
+
+<div class="image-caption">Greendykes Bing near Broxburn</div>
+
+</div>
+
+<div class="image-item">
+
+![Signs on the canal path](images/_DSF4365.jpg)
+
+<div class="image-caption">Signs on the canal path</div>
+
+</div>
+
+<div class="image-item">
+
+![Peaceful canal stretch through woodland](images/_DSF4404.jpg)
+
+<div class="image-caption">Peaceful canal stretch through woodland</div>
+
+</div>
+
+<div class="image-item">
+
+![Woodland Walk along Union Canal](images/_DSF4425.jpg)
+
+<div class="image-caption">Woodland Walk along Union Canal</div>
+
+</div>
+
+<div class="image-item">
+
+![Approaching Ratho marina](images/_DSF4431.jpg)
+
+<div class="image-caption">Approaching Ratho marina</div>
+
+</div>
+
+<div class="image-item">
+
+![Bridge Inn beside the Union Canal](images/_DSF4433.jpg)
+
+<div class="image-caption">Bridge Inn beside the Union Canal</div>
+
+</div>
+
+</div>

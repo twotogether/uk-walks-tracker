@@ -9,7 +9,9 @@
       "Bash(git commit:*)",
       "Bash(python3:*)",
       "Bash(python:*)",
-      "WebFetch(domain:www.walkhighlands.co.uk)"
+      "WebFetch(domain:www.walkhighlands.co.uk)",
+      "WebFetch(domain:www.alltrails.com)",
+      "WebFetch(domain:www.yha.org.uk)"
     ]
   }
 }

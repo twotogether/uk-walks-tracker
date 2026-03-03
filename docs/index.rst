@@ -14,3 +14,4 @@ UK Walks Tracker
    journals/northumberland-coast-path/index
    journals/moray-coast-path/index
    journals/union-canal/index
+   journals/all-other-walks/index
