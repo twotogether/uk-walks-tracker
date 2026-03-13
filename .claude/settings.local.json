@@ -11,7 +11,9 @@
       "Bash(python:*)",
       "WebFetch(domain:www.walkhighlands.co.uk)",
       "WebFetch(domain:www.alltrails.com)",
-      "WebFetch(domain:www.yha.org.uk)"
+      "WebFetch(domain:www.yha.org.uk)",
+      "WebFetch(domain:www.jbutler.org.uk)",
+      "WebFetch(domain:two-together.com)"
     ]
   }
 }

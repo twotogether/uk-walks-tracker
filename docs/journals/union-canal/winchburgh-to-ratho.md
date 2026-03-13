@@ -32,25 +32,17 @@
 
 ## Description
 
-1. **Start at Sainsbury’s Winchburgh & Join the Towpath**: Begin your walk from the Sainsbury’s area in Winchburgh and pick up the canal towpath heading east-south-east. This towpath is part of the Shale Trail, following the historic shale oil-industry landscape.
+1. **Start at Sainsbury’s Winchburgh & Join the Towpath**: We began our walk from the Sainsbury’s in Winchburgh and joined the canal towpath heading towards Broxburn. This towpath is part of the Shale Trail, following the historic shale oil-industry landscape. The canal here run in a sort of valley, with wooded embankments sloping up on both sides, and as is true for the entire route, there are elegant arched bridges spanning the canal.
 
-2. **Shale Bings & Niddry Castle Views**: Early on, you’ll see distinctive shale bings (industrial spoil heaps) on both sides of the canal, remnants of West Lothian’s shale industry. The 16th-century Niddry Castle sits near the canal to the left as you leave Winchburgh.
+2. **Shale Bings & Niddry Castle Views**: Then the landscape opens up and we can see the distinctive shale bings on both sides of the canal, remnants of West Lothian’s shale industry. The 16th-century Niddry Castle is to our left, and behind it is a towering red bing. Niddry castle is a historic tower house built around 1500 by the Seton family. It played a role in Scottish history, including sheltering Mary, Queen of Scots in 1568 after her escape from captivity and surviving attacks during the civil war of the 1570s. It is now privately owned -- wonder what it feels to live there! On our right, is the Greendykes shale bing. People are riding dirt bikes on it, and the noise is loud and jarring.
 
-3. **Cross Broxburn Area on the Shale Trail**: Continue along the towpath through the Broxburn stretch; the route remains on the broadly level Shale Trail and retains these industrial heritage features as you walk toward Ratho. We walk under the M8 and railway bridge. 
+3. **Cross Broxburn Area on the Shale Trail**: We continue along the towpath through the Broxburn stretch; the route remains on the broadly level Shale Trail and retains these industrial heritage features. Around Broxburn, the canal towpath is littered. We spot abandoned trolleys in the water. We are glad to leave it behind and walk through the sunlit West Lothian farmlands. This noise is never too far from motorways and a low buzz accompanies us throughout. We walk under the M8 and railway bridge, see a man fishing in the canal. We also spot a pony, and a bunch of snowdrops.
 
-4. **Almond Aqueduct & Pleasant Woodlands**: Ahead of Ratho is Almond Aqueduct (also called Lin's Mill Aqueduct) a scenic stone structure carrying the canal over the River Almond. Around here the towpath passes attractive stretches of woodland and farmland, offering a peaceful and scenic section of the walk.
+4. **Almond Aqueduct & Pleasant Woodlands**: Next we walk over the magnificent Almond Aqueduct (also called Lin's Mill Aqueduct), a scenic stone structure carrying the canal over the River Almond. I am tempted to climb down the stairs to see the arches of the aqueduct but decide against it. Below us, flows the River Almond and deep green woods  carpets the land. Around here the towpath passes attractive stretches of woodland, offering a peaceful and scenic section of the walk. In winter, the trees are leafless. Gnarly branches appear like ghostly fingers poised over walkers. It is quiet and beautiful, and somewhat eerie, the sun having disappeared behind clouds. This is probably my favourite section of the walk.
 
-5. **Ratho Quarry & Finish at Ratho Bridge Inn**: Just before the end of the walk, you’ll pass Ratho Quarry, known today for its huge former quarry site and the Edinburgh International Climbing Arena. Conclude your canal walk by the Ratho Bridge Inn, just off the canal where you can leave the towpath and rest.
+5. **Wilkies Basin & Finish at Ratho Bridge Inn**: We cross the Bonnington Aqueduct that carries the canal over the B7030 and walk past Wilkies Basin. Here the highway is right next to the towpath and the noise is deafening. A mock castle in bright pink sits on an island-like structure in the basin. A boat is moored on the side. Just before the end of the walk, we pass Ratho Quarry, known today for its huge former quarry site and the Edinburgh International Climbing Arena. We finish our canal walk by the Ratho Bridge Inn, just off the canal where you can leave the towpath and rest.
 
-## Historic Sights
-
-- **Niddry Castle**: Near Winchburgh you’ll see the 16th-century Niddry Castle, a historic tower house built around 1500 by the Seton family. It played a role in Scottish history, including sheltering Mary, Queen of Scots in 1568 after her escape from captivity and surviving attacks during the civil war of the 1570s.
-
-- **Shale Bings**: The striking red shale bings you pass through Winchburgh and Broxburn are remnants of Scotland’s oil shale industry of the 19th and early 20th centuries. These huge waste heaps came from shale extraction and processing that helped power the early oil boom in the area.
-
-- **Almond Aqueduct (Lin's Mill Aqueduct)**: This elegant stone aqueduct — designed by Hugh Baird with input from famed engineer Thomas Telford — carries the canal high over the River Almond just west of Ratho. Built as part of the original canal, it’s a fine example of early 19th-century civil engineering.
-
-- **Ratho Village & Quarry History**: Ratho itself has ancient roots — with Bronze Age and Neolithic artefacts found nearby — and became a thriving spot once the canal arrived. The adjacent Ratho Quarry supplied stone for the canal and for Edinburgh’s New Town and today stands as a reminder of the area’s industrial past before becoming a modern climbing arena.
+To summarise, it was a lovely walk and surprisingly varied. The towering red bings added to the scenery, and so did the woodlands and the rolling farmlands.
 
 ## Notes
 
