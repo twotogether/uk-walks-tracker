@@ -137,7 +137,7 @@ def generate_map(data=None, folder_colors=None):
     if folder_colors is None:
         folder_colors = load_folder_colors()
 
-    m = folium.Map(location=[54.5, -3.0], zoom_start=6, tiles="OpenStreetMap")
+    m = folium.Map(location=[54.5, -3.0], zoom_start=6, tiles="CartoDB voyager")
 
     for walk in data.get("walks", []):
         name = walk["name"]

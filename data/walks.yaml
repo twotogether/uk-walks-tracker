@@ -47,3 +47,6 @@ walks:
 - name: The Sill To Winshields
   gpx: gpx/all-other-walks/the-sill-to-winshields.gpx
   journal: journals/all-other-walks/the-sill-to-winshields.md
+- name: Linlithgow To Polmont
+  gpx: gpx/union-canal/linlithgow-to-polmont.gpx
+  journal: journals/union-canal/linlithgow-to-polmont.md
