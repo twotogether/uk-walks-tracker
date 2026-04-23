@@ -31,6 +31,20 @@
 
 This scenic section of the John Muir Way takes you along the Forth coastline from the historic town of South Queensferry to the charming village of Bo'ness. The walk begins near the Queensferry Crossing and follows peaceful coastal paths with excellent views of the Firth of Forth. You'll pass through the picturesque village of Blackness, known for its dramatic castle and waterfront setting. The route is relatively flat and easy, making it suitable for most fitness levels, and offers a wonderful introduction to Scotland's industrial heritage and coastal scenery.
 
+1. **Start at South Queensferry**: We began our walk at Walker Drive bus stop in South Queensferry, heading west along Farquhar Terrace beneath the impressive Queensferry Crossing. The iconic Forth Bridge and modern crossing provided striking backdrops as we departed the town.
+
+2. **Through Hopetoun Estate Parklands**: We entered the expansive Hopetoun Estate, a magnificent 6,500-acre grounds featuring lovely paths through parklands. We spotted herds of deer grazing within the estate parklands, adding to the magical atmosphere of this section.
+
+3. **Foxgloves and Summer Blooms**: Around the 6 km mark, the path became absolutely spectacular with stretches "absolutely full of foxgloves," creating a fairy-tale landscape with vibrant purple blooms. We spotted herds of deer grazing within the estate parklands, adding to the magical atmosphere of this section.The abundant flora included buddleia, poppies, wild raspberries, and Queen Anne's lace.
+
+4. **Blackness Castle**: We reached the dramatic Blackness Castle, a 15th-century fortress with impressive waterfront setting on the Firth of Forth. The castle provided an excellent landmark and break point, and we paused to appreciate the historic structure (famously featured in TV's *Outlander*). `The Lobster Pot` pub provided a perfect spot for refreshments.
+
+5. **Pastoral Shoreline to Industrial Areas**: From Blackness, the path hugged the shoreline with pastoral scenes of sheep grazing nonchalantly on verdant green pastures. The Firth of Forth views included seabirds like oystercatchers. As we progressed, the landscape transitioned through less scenic industrial areas near Carriden, where the air had an acrid diesel smell and sewage works odors. Best to walk as quickly as you can past this stretch.
+
+6. **Arrive at Bo'ness Harbour**: We finished our walk at Bo'ness harbour amid wildflowers and the heritage railway whistles of the nearby Bo'ness Railway Museum. The walk concluded near the Tesco Superstore, providing convenient facilities for the end of our journey.
+
+This scenic 15 km coastal walk along the Forth is relatively flat and not strenuous at all, making it wonderful for most fitness levels. The route showcases Scotland's natural beauty—from the lush woodlands and wildflowers of Hopetoun Estate to the dramatic coastal castle at Blackness—while offering glimpses of the region's industrial heritage.
+
 ## Notes
 
 - **Cafes, Restaurants, Pubs, and Grocery Shops**:

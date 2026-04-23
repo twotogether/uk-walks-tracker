@@ -29,7 +29,19 @@
 
 ## Description
 
-Add walk description here.
+1. **Start in Aberlady Village**: We began our walk in the charming village of Aberlady, initially heading inland from the Old Aberlady Inn. The route took us past Aberlady Bay Nature Reserve, a important wetland habitat where over 170 bird species have been recorded. The expansive "big skies" and long views across the Firth of Forth provided stunning backdrops for the opening section.
+
+2. **Through Gullane and Archerfield Estate**: Continuing eastward, we reached the picturesque village of Gullane with its charming character and refreshment stops. From Gullane, the path led through Archerfield Estate's woodlands where we spotted roe deer and enjoyed the distinctive woodland scents of mature trees. Here, we spotted deer.
+
+3. **Dirleton Solar Path**: We passed the fascinating Dirleton Solar path, a unique scale model of the solar system, and paused at historic Dirleton Kirk. These landmarks provided interesting focal points and opportunities to appreciate both natural and cultural heritage.
+
+4. **Yellowcraig Beach**: One of the highlights of the walk was Yellowcraig Beach, described as one of the finest beaches on the John Muir Way. The golden sand backed by dunes and pine woods created a beautiful coastal landscape. We enjoyed the contrast between the expansive beach and the sheltering woodland.
+
+5. **Through Farmland to North Berwick**: From the beach, the trail turned inland. We skirted North Berwick Golf Course before transitioning to mostly tarmac alongside residential properties and mansions. This section showcased the variety of East Lothian's landscape transitions.
+
+6. **Arrive at North Berwick**: We finished our walk in the coastal town of North Berwick with views of the distinctive Bass Rock and North Berwick Law visible across the landscape. The journey from inland countryside to the restorative coastal environment perfectly captured the character of this section of the John Muir Way.
+
+This easy and scenic walk showcases some of East Lothian's finest landscapes, alternating between shoreline paths, open countryside, woodland, and farmland while offering abundant opportunities for wildlife spotting and experiencing the natural beauty of the Firth of Forth coast.
 
 ## Notes
 

@@ -21,7 +21,6 @@ We walked the length of the Union Canal, starting from Edinburgh and ending in L
 
 .. toctree::
    :maxdepth: 2
-   :glob:
    :hidden:
 
    edinburgh-to-ratho.md

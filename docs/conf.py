@@ -64,3 +64,17 @@ html_css_files = [
     'custom.css',
 ]
 
+# Copy map directory to build output
+def copy_map_directory(app, exception):
+    import shutil
+    if exception is None:
+        src = os.path.join(app.srcdir, 'map')
+        dst = os.path.join(app.outdir, 'map')
+        if os.path.exists(src):
+            if os.path.exists(dst):
+                shutil.rmtree(dst)
+            shutil.copytree(src, dst)
+
+def setup(app):
+    app.connect('build-finished', copy_map_directory)
+

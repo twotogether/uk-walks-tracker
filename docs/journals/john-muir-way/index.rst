@@ -13,14 +13,16 @@ The walks documented here focus on the eastern sections of the John Muir Way, a 
 
 EASTERN SECTIONS:
 
-1. `Dunbar to East Linton* <east-linton-to-dunbar.html>`_ | 13.4 KM
-2. `East Linton to North Berwick* <north-berwick-to-east-linton.html>`_ | 12.1 KM
-3. `North Berwick to Aberlady <aberlady-to-north-berwick.html>`_ | 14.3 KM
-4. `Aberlady to Prestongrange* <prestongrange-to-aberlady.html>`_ | 14 KM
-5. `Prestongrange to The Jewel* <the-jewel-to-prestongrange.html>`_ | 9 KM
-6. `The Jewel to Slateford* <slateford-to-the-jewel.html>`_ | 10 KM 
-7. `Slateford to Clermiston* <south-queensferry-to-slateford.html>`_ | 13 KM
-8. `Clermiston to South Queensferry* <clermiston-to-south-queensferry.html>`_ | 8 KM
+We mostly walked west to east with a few exceptions.
+
+1. `East Linton to Dunbar <east-linton-to-dunbar.html>`_ | 13.4 KM
+2. `North Berwick to East Linton* <north-berwick-to-east-linton.html>`_ | 12.1 KM
+3. `Aberlady to North Berwick <aberlady-to-north-berwick.html>`_ | 14.3 KM
+4. `Prestongrange to Aberlady <prestongrange-to-aberlady.html>`_ | 14 KM
+5. `The Jewel to Prestongrange <the-jewel-to-prestongrange.html>`_ | 9 KM
+6. `Slateford to The Jewel <slateford-to-the-jewel.html>`_ | 10 KM 
+7. `Clermiston to Slateford <south-queensferry-to-slateford.html>`_ | 13 KM
+8. `South Queensferry to Clermiston <clermiston-to-south-queensferry.html>`_ | 8 KM
 
 WESTERN SECTIONS (coming soon):
 

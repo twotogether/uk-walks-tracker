@@ -15,3 +15,4 @@ UK Walks Tracker
    journals/moray-coast-path/index
    journals/union-canal/index
    journals/all-other-walks/index
+   journals/hill-walks/index

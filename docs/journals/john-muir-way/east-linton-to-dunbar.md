@@ -29,15 +29,15 @@
 
 ## Description
 
-1. **Start at East Linton & Follow the River Tyne**: We began our walk at East Linton and followed a path through the River Tyne woodlands and agricultural areas. The path winds through farmland with an abundance of brambles and wild raspberries dotting the landscape, offering natural treats for foragers. This section of the John Muir Way passes through countryside that feels rural and peaceful.
+1. **Start at East Linton and Follow the River Tyne**: We began our walk at East Linton and followed a path through the River Tyne woodlands and agricultural areas. The path winds through farmland with an abundance of brambles and wild raspberries dotting the landscape, offering natural treats for foragers. This section of the John Muir Way passes through countryside that feels rural and peaceful.
 
-2. **Through Farmlands & Towards the Estuary**: Continuing along the route, we passed through several fields of brussels sprout that were in season when we did the walk. The landscape gradually transitions as we approach the Tyne estuary, where the river meets the coast.
+2. **Through Farmlands and Towards the Estuary**: Continuing along the route, we passed through several fields of brussels sprout that were in season when we did the walk. The landscape gradually transitions as we approach the Tyne estuary, where the river meets the coast.
 
-3. **Estuary & Tidal Flats**: We walked along elevated embankments skirting the tidal flats of the estuary. This section is particularly rich for wildlife spotting, with white-winged waders including curlews and oystercatchers visible across the mudflats. The estuary offers a unique ecosystem where river and sea converge.
+3. **Estuary and Tidal Flats**: We walked along elevated embankments skirting the tidal flats of the estuary. This section is particularly rich for wildlife spotting, with white-winged waders including curlews and oystercatchers visible across the mudflats. The estuary offers a unique ecosystem where river and sea converge.
 
 4. **Belhaven Bridge – The Bridge to Nowhere**: We reached the notable Belhaven Bridge, a historic structure that becomes submerged at high tide, earning it the picturesque nickname "Bridge to Nowhere". This dramatic feature marks a transition point in the walk and provides a striking landmark between the estuary and the final clifftop section.
 
-5. **Red Sandstone Cliffs & Clifftop Finale**: From Belhaven Bridge, the route ascends to the clifftop offering dramatic coastal scenery. The red sandstone cliffs display striking erosion patterns carved by the sea over millennia. The panoramic views extend across the coast, with Bass Rock visible in the distance – a magnificent natural monument rising from the sea.
+5. **Red Sandstone Cliffs and Clifftop Finale**: From Belhaven Bridge, the route ascends to the clifftop offering dramatic coastal scenery. The red sandstone cliffs display striking erosion patterns carved by the sea over millennia. The panoramic views extend across the coast, with Bass Rock visible in the distance – a magnificent natural monument rising from the sea.
 
 6. **Arrive at Dunbar**: We finished our walk in the charming coastal town of Dunbar, with its beaches and seafront character providing a perfect endpoint for this diverse John Muir Way section. We had lunch at `Graze Coffee & Chocolate House`, then headed hot. It was an extremely hot day and we were exhausted.
 

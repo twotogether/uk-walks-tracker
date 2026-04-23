@@ -50,3 +50,9 @@ walks:
 - name: Linlithgow To Polmont
   gpx: gpx/union-canal/linlithgow-to-polmont.gpx
   journal: journals/union-canal/linlithgow-to-polmont.md
+- name: Eildon Mid Hill
+  gpx: gpx/hill-walks/eildon-mid-hill.gpx
+  journal: journals/hill-walks/eildon-mid-hill.md
+- name: North Berwick Law
+  gpx: gpx/hill-walks/north-berwick-law.gpx
+  journal: journals/hill-walks/north-berwick-law.md

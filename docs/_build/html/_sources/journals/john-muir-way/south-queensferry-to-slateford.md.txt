@@ -1,4 +1,4 @@
-# South Queensferry To Slateford
+# South Queensferry to Slateford
 
 ## Walk Metadata
 
@@ -30,9 +30,19 @@
 
 ## Description
 
-From the bus stop, head east past the historic Hawes Inn and beneath the towering, rust-red Forth Bridge. From there, the route takes you through the picturesque Roseberry Estate, also known as Dalmeny Estate. As you continue, the path weaves along the coast before passing the impressive Dalmeny House. From here, the trail moves on towards the village of Cramond, where the peaceful surroundings offer a calm introduction to Edinburgh. The route then heads through the quiet neighbourhoods of Cramond and Barnton, before climbing Corstorphine Hill — one of the highest points on the eastern section of the John Muir Way.
+1. **Start in South Queensferry**: We began our walk in the charming coastal town of South Queensferry, where local bakeries offer fresh pastries before we set off. From the bus stop, we headed east, passing the historic Hawes Inn and the impressive monument beneath the towering, rust-red Forth Bridge.
 
-From here, the walk takes you onward, along the scenic paths along the Water of Leith toward Slateford, where your journey finishes.
+2. **Roseberry Estate and Dalmeny House**: The route took us through the picturesque Roseberry Estate (also known as Dalmeny Estate), featuring scenic coastal terrain with diverse seasonal features—from spring bluebells to autumn foliage. We passed the impressive Dalmeny House before continuing toward the village of Cramond.
+
+3. **Through Cramond to Barnton**: We walked across the old stone bridge to Cramond, an affluent conservation village. The route continued through the quiet neighbourhoods of Barnton, passing Davidson's Mains Park before reaching Clermiston, a useful break point.
+
+4. **Corstorphine Hill Ascent**: From Clermiston, we ascended Corstorphine Hill, one of Edinburgh's seven hills and one of the highest points on this section of the John Muir Way. The climb is easy with gentle inclines, though the descent requires caution if you have knee concerns. From the summit, we enjoyed panoramic views of Edinburgh Castle and the Pentland Hills. You can stop for a breather in the lovely walled garden at the foot of the hill.
+
+5. **Descent and Edinburgh Zoo**: We descended past Edinburgh Zoo and skirted Carrick Knowe Golf Course, beginning the transition from urban highlands to the shaded Water of Leith corridor.
+
+6. **Water of Leith to Slateford**: The final stretch followed the tree-lined Water of Leith waterway, one of Edinburgh's natural gems. We passed through Saughton Park with its excellent facilities and peaceful parkland before reaching our journey's end at Slateford.
+
+This wonderfully varied 21 km walk combines semi-rural coastal landscapes with urban Edinburgh, offering diverse terrain from picturesque estates to river corridors, with excellent signage and public transport connections throughout.
 
 ## Historic Sights
 
@@ -53,3 +63,136 @@ Along the way, you'll pass several notable landmarks:
 - **Weather**: The route is exposed in places, so bring appropriate clothing for wind and rain.
 - **Photography**: Excellent photo opportunities of the Forth bridges, especially at sunrise or sunset.
 
+## Photos
+
+<div class="image-gallery">
+
+<div class="image-item">
+
+![South Queensferry start](images/sq-clermiston-05.jpg)
+
+<div class="image-caption">South Queensferry start</div>
+
+</div>
+
+<div class="image-item">
+
+![Hot summer day in Queensferry](images/sq-clermiston-09.jpg)
+
+<div class="image-caption">Hot summer day in Queensferry</div>
+
+</div>
+
+<div class="image-item">
+
+![Pastries at Dune](images/sq-clermiston-13.jpg)
+
+<div class="image-caption">Pastries at Dune</div>
+
+</div>
+
+<div class="image-item">
+
+![Walking through Dalmeny Estate](images/sq-clermiston-28.jpg)
+
+<div class="image-caption">Walking through Dalmeny Estate</div>
+
+</div>
+
+<div class="image-item">
+
+![John Muir Way through the Dalmeny Estate](images/sq-clermiston-43.jpg)
+
+<div class="image-caption">John Muir Way through the Dalmeny Estate</div>
+
+</div>
+
+<div class="image-item">
+
+![Sheep outside the Dalmeny Estate](images/sq-clermiston-52.jpg)
+
+<div class="image-caption">Sheep outside the Dalmeny Estate</div>
+
+</div>
+
+<div class="image-item">
+
+![Exiting Dalmeny Estate](images/sq-clermiston-56.jpg)
+
+<div class="image-caption">Exiting Dalmeny Estate</div>
+
+</div>
+
+<div class="image-item">
+
+![River Almond](images/sq-clermiston-62.jpg)
+
+<div class="image-caption">River Almond</div>
+
+</div>
+
+<div class="image-item">
+
+![Corstorphine Walled Garden](images/jmw-086.jpg)
+
+<div class="image-caption">Corstorphine Walled Garden</div>
+
+</div>
+
+<div class="image-item">
+
+![Corstorphine hill tower](images/jmw-091.jpg)
+
+<div class="image-caption">Corstorphine hill tower</div>
+
+</div>
+
+<div class="image-item">
+
+![John Muir Way over Corstorphine hill](images/jmw-097.jpg)
+
+<div class="image-caption">John Muir Way over Corstorphine hill</div>
+
+</div>
+
+<div class="image-item">
+
+![Corstorphine hill path](images/jmw-099.jpg)
+
+<div class="image-caption">Corstorphine hill path</div>
+
+</div>
+
+<div class="image-item">
+
+![Edinburgh from Corstorphine hill](images/jmw-105.jpg)
+
+<div class="image-caption">Edinburgh from Corstorphine hill</div>
+
+</div>
+
+<div class="image-item">
+
+![Pentland hill views from Corstorphine hill](images/jmw-112.jpg)
+
+<div class="image-caption">Pentland hill views from Corstorphine hill</div>
+
+</div>
+
+<div class="image-item">
+
+![Saughton park](images/jmw-118.jpg)
+
+<div class="image-caption">Saughton park</div>
+
+</div>
+
+<div class="image-item">
+
+![Cherries along the Water of Leith](images/jmw-129.jpg)
+
+<div class="image-caption">Cherries along the Water of Leith</div>
+
+</div>
+
+</div>

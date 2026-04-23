@@ -137,7 +137,12 @@ def generate_map(data=None, folder_colors=None):
     if folder_colors is None:
         folder_colors = load_folder_colors()
 
-    m = folium.Map(location=[54.5, -3.0], zoom_start=6, tiles="CartoDB voyager")
+    m = folium.Map(location=[54.5, -3.0], zoom_start=6, tiles=None)
+    folium.TileLayer(
+        tiles="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+        attr='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        name="CartoDB Light"
+    ).add_to(m)
 
     for walk in data.get("walks", []):
         name = walk["name"]
