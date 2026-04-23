@@ -1,4 +1,4 @@
-# South Queensferry To Boness
+# South Queensferry To Bo'ness
 
 ## Walk Metadata
 

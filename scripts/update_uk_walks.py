@@ -65,12 +65,12 @@ def assign_colors_to_folders():
             color_index = len(folder_colors) % len(COLOR_PALETTE)
             assigned_color = COLOR_PALETTE[color_index]
             folder_colors[folder_name] = assigned_color
-            print(f"🎨 Assigned color {assigned_color} to folder: {folder_name}")
+            print(f"[COLOR] Assigned color {assigned_color} to folder: {folder_name}")
             colors_updated = True
 
     if colors_updated:
         save_folder_colors(folder_colors)
-        print(f"✅ folder_colors.yaml updated\n")
+        print(f"[OK] folder_colors.yaml updated\n")
 
     return folder_colors
 
@@ -116,14 +116,14 @@ def update_walks_yaml():
             }
 
             data["walks"].append(new_walk)
-            print(f"➕ Added new walk: {relative_gpx}")
+            print(f"[+] Added new walk: {relative_gpx}")
             new_walks_added = True
 
     if new_walks_added:
         save_walks_yaml(data)
-        print("✅ walks.yaml updated with new GPX files\n")
+        print("[OK] walks.yaml updated with new GPX files\n")
     else:
-        print("ℹ️ No new GPX files found\n")
+        print("[INFO] No new GPX files found\n")
 
     return data
 
@@ -150,7 +150,7 @@ def generate_map(data=None, folder_colors=None):
         gpx_path = BASE_DIR / walk["gpx"]
 
         if not gpx_path.exists():
-            print(f"⚠️ Missing GPX file: {gpx_path}")
+            print(f"[WARN] Missing GPX file: {gpx_path}")
             continue
 
         with open(gpx_path, "r", encoding="utf-8") as gpx_file:
@@ -175,11 +175,11 @@ def generate_map(data=None, folder_colors=None):
         color = folder_colors.get(folder_name, "#808080")
 
         folium.PolyLine(coords, color=color, weight=4, popup=popup_html).add_to(m)
-        print(f"✅ Added to map: {name} (color: {color})")
+        print(f"[OK] Added to map: {name} (color: {color})")
 
     map_out = MAP_DIR / "index.html"
-    m.save(map_out)
-    print(f"\n✅ Map saved to {map_out}\n")
+    m.save(str(map_out))
+    print(f"\n[OK] Map saved to {map_out}\n")
 
 
 if __name__ == "__main__":

@@ -21,8 +21,7 @@ We mostly walked west to east with a few exceptions.
 4. `Prestongrange to Aberlady <prestongrange-to-aberlady.html>`_ | 14 KM
 5. `The Jewel to Prestongrange <the-jewel-to-prestongrange.html>`_ | 9 KM
 6. `Slateford to The Jewel <slateford-to-the-jewel.html>`_ | 10 KM 
-7. `Clermiston to Slateford <south-queensferry-to-slateford.html>`_ | 13 KM
-8. `South Queensferry to Clermiston <clermiston-to-south-queensferry.html>`_ | 8 KM
+7. `South Queensferry to Slateford <south-queensferry-to-slateford.html>`_ | 21 KM
 
 WESTERN SECTIONS (coming soon):
 
