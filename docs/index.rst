@@ -9,7 +9,7 @@ UK Walks Tracker
    :maxdepth: 2
    :hidden:
 
-   Fife Coast Path "#3CB371" <journals/fife-coast-path/index>
+   journals/fife-coast-path/index
    journals/john-muir-way/index
    journals/northumberland-coast-path/index
    journals/moray-coast-path/index
