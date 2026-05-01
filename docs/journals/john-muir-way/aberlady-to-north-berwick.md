@@ -29,7 +29,7 @@
 
 ## Description
 
-1. **Start in Aberlady Village**: We began our walk in the charming village of Aberlady, initially heading inland from the Old Aberlady Inn. The route took us past Aberlady Bay Nature Reserve, a important wetland habitat where over 170 bird species have been recorded. The expansive "big skies" and long views across the Firth of Forth provided stunning backdrops for the opening section.
+1. **Start in Aberlady Village**: We began our walk in the charming village of Aberlady, heading seawards from the Old Aberlady Inn. The route took us past Aberlady Bay Nature Reserve, a important wetland habitat where over 170 bird species have been recorded. The expansive "big skies" and long views across the Firth of Forth provided stunning backdrops for the opening section.
 
 2. **Through Gullane and Archerfield Estate**: Continuing eastward, we reached the picturesque village of Gullane with its charming character and refreshment stops. From Gullane, the path led through Archerfield Estate's woodlands where we spotted roe deer and enjoyed the distinctive woodland scents of mature trees. Here, we spotted deer.
 

@@ -26,10 +26,11 @@ We mostly walked west to east with a few exceptions.
 WESTERN SECTIONS (coming soon):
 
 9. `South Queensferry to Bo'ness <south-queensferry-to-boness.html>`_ | 15 KM
-10. Bo'ness to Helensburgh (coming soon)
+10. Bo'ness to Linlithgow (coming soon)
+11. `Linlithgow to Falkirk** <linlithgow-to-falkirk.html>`_ | 10.5 KM
 
-*We walked this section in the opposite direction
-
+- *We walked this section in the opposite direction
+- ** Walked as part of the Union Canal Path, which is a shared section with the John Muir Way
 
 **Note:** All sections are connected by public transport, making it easy to walk individual stages and return to your starting point by bus or train.
 
@@ -45,3 +46,4 @@ WESTERN SECTIONS (coming soon):
    slateford-to-the-jewel.md
    south-queensferry-to-slateford.md
    south-queensferry-to-boness.md
+   linlithgow-to-falkirk.md

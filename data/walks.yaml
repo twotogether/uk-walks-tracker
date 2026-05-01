@@ -56,3 +56,9 @@ walks:
 - name: Winchburgh To Ratho
   gpx: gpx/union-canal/winchburgh-to-ratho.gpx
   journal: journals/union-canal/winchburgh-to-ratho.md
+- name: Polmont To Falkirk
+  gpx: gpx/union-canal/polmont-to-falkirk.gpx
+  journal: journals/union-canal/polmont-to-falkirk.md
+- name: Linlithgow To Falkirk
+  gpx: gpx/john-muir-way/linlithgow-to-falkirk.gpx
+  journal: journals/john-muir-way/linlithgow-to-falkirk.md

@@ -58,7 +58,7 @@ def build_sphinx():
     return True
 
 
-def main():
+def main(skip_sphinx=False):
     """Run the complete build pipeline."""
     print("\n" + "=" * 60)
     print("🚀 UK Walks Tracker Build Pipeline")
@@ -89,12 +89,20 @@ def main():
         print("=" * 60 + "\n")
         generate_map(data, folder_colors)
 
-        # Step 5: Build Sphinx documentation
-        if not build_sphinx():
-            sys.exit(1)
+        # Step 5: Build Sphinx documentation (optional)
+        if skip_sphinx:
+            print("\n" + "=" * 60)
+            print("⏭️ Skipping Sphinx build (--update-only mode)")
+            print("=" * 60 + "\n")
+        else:
+            if not build_sphinx():
+                sys.exit(1)
 
         print("=" * 60)
-        print("✨ Build complete! View at: docs/_build/html/index.html")
+        if skip_sphinx:
+            print("✨ Update complete!")
+        else:
+            print("✨ Build complete! View at: docs/_build/html/index.html")
         print("=" * 60 + "\n")
 
     except Exception as e:
@@ -103,4 +111,34 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+
+    parser = argparse.ArgumentParser(description="UK Walks Tracker build system")
+    parser.add_argument("--clean", action="store_true", help="Remove old build artifacts")
+    parser.add_argument("--preview", action="store_true", help="Build and open in browser")
+    parser.add_argument("--update-only", action="store_true", help="Update walks.yaml and map only (skip Sphinx)")
+    args = parser.parse_args()
+
+    if args.clean:
+        import shutil
+        build_dir = DOCS_DIR / "_build"
+        if build_dir.exists():
+            print("\n" + "=" * 60)
+            print("🧹 Cleaning build artifacts...")
+            print("=" * 60 + "\n")
+            shutil.rmtree(build_dir)
+            print("[OK] Build artifacts removed\n")
+
+    try:
+        main(skip_sphinx=args.update_only)
+
+        if args.preview and not args.update_only:
+            import webbrowser
+            html_file = (DOCS_DIR / "_build" / "html" / "index.html").as_posix()
+            webbrowser.open(f"file:///{html_file}")
+            print(f"[OK] Opening {html_file} in browser\n")
+    except SystemExit:
+        raise
+    except Exception as e:
+        print(f"\n❌ Build failed with error: {e}\n")
+        sys.exit(1)

@@ -15,7 +15,7 @@ We walked the length of the Union Canal, starting from Edinburgh and ending in L
 2. `Ratho to Winchburgh <winchburgh-to-ratho.html>`_ | 12.9 KM (we walked this section in the opposite direction)
 3. `Winchburgh to Linlithgow <winchburgh-to-linlithgow.html>`_ | 9.9 KM
 4. `Linlithgow to Polmont <linlithgow-to-polmont.html>`_ | 9.46 KM
-5. Polmont to Falkirk (coming soon)
+5. `Polmont to Falkirk <polmont-to-falkirk.html>`_ | 9.47 KM
 
 **Note:** All sections are connected by public transport, so you can easily walk one section and then take a bus or train back to your starting point.
 
@@ -27,3 +27,4 @@ We walked the length of the Union Canal, starting from Edinburgh and ending in L
    winchburgh-to-ratho.md
    winchburgh-to-linlithgow.md
    linlithgow-to-polmont.md
+   polmont-to-falkirk.md

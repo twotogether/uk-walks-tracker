@@ -34,16 +34,21 @@ if "%1"=="" (
     echo Running build with preview...
     echo.
     python scripts\build.py --preview
+) else if "%1"=="--update-only" (
+    echo Running update only (skipping Sphinx)...
+    echo.
+    python scripts\build.py --update-only
 ) else if "%1"=="--help" (
     python scripts\build.py --help
 ) else (
     echo Unknown option: %1
     echo.
     echo Usage:
-    echo   build.bat              - Standard build
-    echo   build.bat --clean      - Clean build (removes old artifacts^)
-    echo   build.bat --preview    - Build and open in browser
-    echo   build.bat --help       - Show help message
+    echo   build.bat                - Standard build
+    echo   build.bat --clean        - Clean build (removes old artifacts^)
+    echo   build.bat --preview      - Build and open in browser
+    echo   build.bat --update-only   - Update walks.yaml and map only (skip Sphinx^)
+    echo   build.bat --help         - Show help message
     echo.
     pause
     exit /b 1

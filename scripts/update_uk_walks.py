@@ -88,9 +88,34 @@ def load_walks_yaml():
 
 
 def save_walks_yaml(data):
-    """Save walks.yaml file."""
-    with open(WALKS_YAML, "w", encoding="utf-8") as f:
-        yaml.dump(data, f, sort_keys=False, allow_unicode=True)
+    """Save walks.yaml file with atomic write to prevent corruption."""
+    import tempfile
+    import shutil
+    from datetime import datetime
+
+    try:
+        # Create backup before overwriting
+        if WALKS_YAML.exists():
+            backup_path = WALKS_YAML.with_stem(f"{WALKS_YAML.stem}.backup")
+            shutil.copy2(WALKS_YAML, backup_path)
+            print(f"[OK] Created backup: {backup_path.name}")
+
+        # Write to temporary file first (atomic write on Windows/Unix)
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            suffix=".yaml",
+            dir=WALKS_YAML.parent,
+            delete=False,
+            encoding="utf-8"
+        ) as tmp_file:
+            yaml.dump(data, tmp_file, sort_keys=False, allow_unicode=True)
+            tmp_path = Path(tmp_file.name)
+
+        # Atomic rename (move temp file to actual location)
+        shutil.move(str(tmp_path), str(WALKS_YAML))
+    except Exception as e:
+        print(f"[ERROR] Failed to save walks.yaml: {e}")
+        raise
 
 
 def update_walks_yaml():
@@ -105,6 +130,14 @@ def update_walks_yaml():
     for gpx_file in GPX_FOLDER.rglob("*.gpx"):
         relative_gpx = gpx_file.relative_to(BASE_DIR).as_posix()
         if relative_gpx not in existing_gpx:
+            # Verify GPX file is readable before adding
+            try:
+                with open(gpx_file, "r", encoding="utf-8") as f:
+                    gpxpy.parse(f)
+            except Exception as e:
+                print(f"[WARN] Skipping invalid/unreadable GPX file {gpx_file}: {e}")
+                continue
+
             name = make_human_name(gpx_file.stem)
             gpx_rel = gpx_file.relative_to(GPX_FOLDER)
             journal_rel = Path("journals") / gpx_rel.with_suffix(".md")
@@ -120,6 +153,15 @@ def update_walks_yaml():
             new_walks_added = True
 
     if new_walks_added:
+        # Validate that no existing entries were lost
+        final_gpx_set = {Path(w["gpx"]).as_posix() for w in data["walks"]}
+        if len(final_gpx_set) < len(existing_gpx):
+            lost_gpx = existing_gpx - final_gpx_set
+            print(f"[ERROR] WARNING: {len(lost_gpx)} walk entries were lost during update!")
+            for gpx in lost_gpx:
+                print(f"  - {gpx}")
+            raise RuntimeError("walks.yaml update would lose existing entries. Aborting.")
+
         save_walks_yaml(data)
         print("[OK] walks.yaml updated with new GPX files\n")
     else:
@@ -128,8 +170,84 @@ def update_walks_yaml():
     return data
 
 
+def _build_spatial_grid(all_walks_coords):
+    """
+    Build a spatial grid mapping (round(lat,3), round(lon,3)) -> set of walk IDs.
+
+    A grid cell contains multiple walk IDs when those walks pass through
+    the same ~100m area, indicating a geographic overlap.
+
+    Args:
+        all_walks_coords: dict of {walk_id: {"coords": [[lat, lon], ...], ...}}
+
+    Returns:
+        dict: {(float, float): set of str}
+    """
+    grid = {}
+    for walk_id, walk_data in all_walks_coords.items():
+        for lat, lon in walk_data["coords"]:
+            cell = (round(lat, 3), round(lon, 3))
+            if cell not in grid:
+                grid[cell] = set()
+            grid[cell].add(walk_id)
+    return grid
+
+
+def _split_segments(coords, walk_id, grid):
+    """
+    Split coords into runs of consecutive points with the same overlap state.
+
+    At each point, the overlap state is the frozenset of other walk IDs that
+    also pass through the same ~100m grid cell.
+
+    Transition points are shared between adjacent segments to prevent
+    visual gaps in the rendered polyline.
+
+    Args:
+        coords:   list of [lat, lon] pairs for this walk
+        walk_id:  str identifier for this walk (used to exclude self from overlap set)
+        grid:     dict from _build_spatial_grid
+
+    Returns:
+        list of dicts: [
+            {"overlapping_with": frozenset of str, "coords": [[lat, lon], ...]},
+            ...
+        ]
+    """
+    if not coords:
+        return []
+
+    segments = []
+    current_overlap = None
+    current_coords = []
+
+    for pt in coords:
+        cell = (round(pt[0], 3), round(pt[1], 3))
+        others = frozenset(grid.get(cell, set()) - {walk_id})
+
+        if others != current_overlap:
+            if current_coords:
+                current_coords.append(pt)
+                segments.append({
+                    "overlapping_with": current_overlap,
+                    "coords": current_coords,
+                })
+            current_overlap = others
+            current_coords = [pt]
+        else:
+            current_coords.append(pt)
+
+    if current_coords:
+        segments.append({
+            "overlapping_with": current_overlap,
+            "coords": current_coords,
+        })
+
+    return segments
+
+
 def generate_map(data=None, folder_colors=None):
-    """Generate interactive Folium map from walks data."""
+    """Generate interactive Folium map from walks data with overlapping path detection."""
     MAP_DIR.mkdir(parents=True, exist_ok=True)
 
     if data is None:
@@ -144,15 +262,21 @@ def generate_map(data=None, folder_colors=None):
         name="CartoDB Light"
     ).add_to(m)
 
+    # ============================================================================
+    # PASS 1: Parse all walks into memory
+    # ============================================================================
+    all_walks_coords = {}
+
     for walk in data.get("walks", []):
+        walk_id = walk["gpx"]
         name = walk["name"]
-        coords = []
-        gpx_path = BASE_DIR / walk["gpx"]
+        gpx_path = BASE_DIR / walk_id
 
         if not gpx_path.exists():
             print(f"[WARN] Missing GPX file: {gpx_path}")
             continue
 
+        coords = []
         with open(gpx_path, "r", encoding="utf-8") as gpx_file:
             gpx = gpxpy.parse(gpx_file)
             for track in gpx.tracks:
@@ -166,16 +290,79 @@ def generate_map(data=None, folder_colors=None):
         if not coords:
             continue
 
+        gpx_rel_path = Path(walk_id).relative_to("gpx")
+        folder_name = gpx_rel_path.parts[0]
+        color = folder_colors.get(folder_name, "#808080")
+
         journal_html = walk["journal"].replace(".md", ".html")
         journal_url = f"{SITE_ROOT}/{journal_html}"
         popup_html = f"<b>{name}</b><br><a href='{journal_url}' target='_blank'>View Journal</a>"
 
-        gpx_rel_path = Path(walk["gpx"]).relative_to("gpx")
-        folder_name = gpx_rel_path.parts[0]
-        color = folder_colors.get(folder_name, "#808080")
+        all_walks_coords[walk_id] = {
+            "name": name,
+            "color": color,
+            "coords": coords,
+            "popup_html": popup_html,
+        }
 
-        folium.PolyLine(coords, color=color, weight=4, popup=popup_html).add_to(m)
-        print(f"[OK] Added to map: {name} (color: {color})")
+    # ============================================================================
+    # Build spatial grid (detect overlapping walks)
+    # ============================================================================
+    grid = _build_spatial_grid(all_walks_coords)
+
+    # ============================================================================
+    # PASS 2: Split each walk into segments and render
+    # ============================================================================
+    for walk_id, walk_data in all_walks_coords.items():
+        name = walk_data["name"]
+        color = walk_data["color"]
+        popup_html = walk_data["popup_html"]
+        coords = walk_data["coords"]
+
+        segments = _split_segments(coords, walk_id, grid)
+
+        first_segment = True
+        overlapping_segment_count = 0
+
+        for seg in segments:
+            seg_coords = seg["coords"]
+            overlapping_with = seg["overlapping_with"]
+
+            popup = popup_html if first_segment else None
+            first_segment = False
+
+            if not overlapping_with:
+                # Non-overlapping segment: solid line
+                folium.PolyLine(
+                    seg_coords,
+                    color=color,
+                    weight=4,
+                    popup=popup,
+                ).add_to(m)
+            else:
+                # Overlapping segment: alternating dashes
+                all_overlapping = overlapping_with | {walk_id}
+                sorted_ids = sorted(all_overlapping)
+                my_index = sorted_ids.index(walk_id)
+                dash_offset = str(my_index * 15)
+
+                folium.PolyLine(
+                    seg_coords,
+                    color=color,
+                    weight=4,
+                    dash_array="15 15",
+                    dash_offset=dash_offset,
+                    popup=popup,
+                ).add_to(m)
+
+                overlapping_segment_count += 1
+
+        overlap_note = (
+            f", {overlapping_segment_count} overlapping segment(s)"
+            if overlapping_segment_count
+            else ""
+        )
+        print(f"[OK] Added to map: {name} (color: {color}{overlap_note})")
 
     map_out = MAP_DIR / "index.html"
     m.save(str(map_out))
