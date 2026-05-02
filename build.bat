@@ -1,8 +1,5 @@
 @echo off
 REM One-click build script for UK Walks Tracker (Windows)
-REM This script builds the entire project in one command
-
-setlocal enabledelayedexpansion
 
 cd /d "%~dp0"
 
@@ -12,11 +9,18 @@ echo   UK Walks Tracker - One-Click Build (Windows)
 echo ============================================================
 echo.
 
-REM Check if Python is available
-python --version >nul 2>&1
-if %errorlevel% neq 0 (
+REM Try to find Python executable
+set PYTHON=python
+if exist ".venv\Scripts\python.exe" (
+    set PYTHON=.venv\Scripts\python.exe
+)
+
+REM Verify Python is available
+%PYTHON% --version >nul 2>&1
+if errorlevel 1 (
     echo ERROR: Python is not installed or not in PATH
-    echo Please install Python or add it to your PATH
+    echo Please install Python from https://www.python.org
+    echo or create a virtual environment with: python -m venv .venv
     pause
     exit /b 1
 )
@@ -25,36 +29,50 @@ REM Run the build script with arguments
 if "%1"=="" (
     echo Running standard build...
     echo.
-    python scripts\build.py
-) else if "%1"=="--clean" (
-    echo Running clean build...
-    echo.
-    python scripts\build.py --clean
-) else if "%1"=="--preview" (
-    echo Running build with preview...
-    echo.
-    python scripts\build.py --preview
-) else if "%1"=="--update-only" (
-    echo Running update only (skipping Sphinx)...
-    echo.
-    python scripts\build.py --update-only
-) else if "%1"=="--help" (
-    python scripts\build.py --help
-) else (
-    echo Unknown option: %1
-    echo.
-    echo Usage:
-    echo   build.bat                - Standard build
-    echo   build.bat --clean        - Clean build (removes old artifacts^)
-    echo   build.bat --preview      - Build and open in browser
-    echo   build.bat --update-only   - Update walks.yaml and map only (skip Sphinx^)
-    echo   build.bat --help         - Show help message
-    echo.
-    pause
-    exit /b 1
+    %PYTHON% scripts\build.py
+    goto end
 )
 
-if %errorlevel% neq 0 (
+if "%1"=="--clean" (
+    echo Running clean build...
+    echo.
+    %PYTHON% scripts\build.py --clean
+    goto end
+)
+
+if "%1"=="--preview" (
+    echo Running build with preview...
+    echo.
+    %PYTHON% scripts\build.py --preview
+    goto end
+)
+
+if "%1"=="--update-only" (
+    echo Running update only (skipping Sphinx)...
+    echo.
+    %PYTHON% scripts\build.py --update-only
+    goto end
+)
+
+if "%1"=="--help" (
+    %PYTHON% scripts\build.py --help
+    goto end
+)
+
+echo Unknown option: %1
+echo.
+echo Usage:
+echo   build.bat                - Standard build
+echo   build.bat --clean        - Clean build
+echo   build.bat --preview      - Build and open in browser
+echo   build.bat --update-only  - Update walks.yaml and map only
+echo   build.bat --help         - Show help message
+echo.
+pause
+exit /b 1
+
+:end
+if errorlevel 1 (
     echo.
     echo Build failed! Check the output above for details.
     pause
