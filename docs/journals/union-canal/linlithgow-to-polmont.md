@@ -55,3 +55,121 @@ The entire route is flat and accessible. The combination of historic engineering
 - **Public Toilets**: Public toilets in Linlithgow town centre and railway station. Limited facilities along the route. Public toilets in Polmont station.
 - **Safety**: Watch for cyclists on the towpath; most are considerate, but stay alert. The cobbled surface of Avon Aqueduct can be slippery in wet conditions.
 - **Wildlife**: Look out for ducks, swans, herons, and other waterfowl along the canal. Also look out for butterflies. If you are a wildflower enthusiast, spring and early summer are the best times for this walk.
+
+## Photos
+
+<div class="image-gallery">
+
+<div class="image-item">
+
+![Union Canal towpath leaving Linlithgow](images/_DSF5025.jpg)
+
+<div class="image-caption">Union Canal towpath leaving Linlithgow</div>
+
+</div>
+
+<div class="image-item">
+
+![Wildflowers and butterflies along the towpath](images/_DSF5037.jpg)
+
+<div class="image-caption">Wildflowers and butterflies along the towpath</div>
+
+</div>
+
+<div class="image-item">
+
+![Union Canal towpath walk](images/_DSF5042.jpg)
+
+<div class="image-caption">Union Canal towpath walk</div>
+
+</div>
+
+<div class="image-item">
+
+![Approaching Polmont along the Union Canal](images/_DSF5044.jpg)
+
+<div class="image-caption">Approaching Polmont along the Union Canal</div>
+
+</div>
+
+<div class="image-item">
+
+![Canal scenery en route](images/_DSF5433.jpg)
+
+<div class="image-caption">Canal scenery en route</div>
+
+</div>
+
+<div class="image-item">
+
+![Wildflowers blooming along the towpath](images/_DSF5438.jpg)
+
+<div class="image-caption">Wildflowers blooming along the towpath</div>
+
+</div>
+
+<div class="image-item">
+
+![Peaceful stretch of Union Canal](images/_DSF5440.jpg)
+
+<div class="image-caption">Peaceful stretch of Union Canal</div>
+
+</div>
+
+<div class="image-item">
+
+![Waterfowl spotting on the canal](images/_DSF5454.jpg)
+
+<div class="image-caption">Waterfowl spotting on the canal</div>
+
+</div>
+
+<div class="image-item">
+
+![Historic towpath and embankment](images/_DSF5471.jpg)
+
+<div class="image-caption">Historic towpath and embankment</div>
+
+</div>
+
+<div class="image-item">
+
+![Canal bridge features](images/_DSF5480.jpg)
+
+<div class="image-caption">Canal bridge features</div>
+
+</div>
+
+<div class="image-item">
+
+![Spring blossoms near the canal](images/_DSF5504.jpg)
+
+<div class="image-caption">Spring blossoms near the canal</div>
+
+</div>
+
+<div class="image-item">
+
+![Union Canal landscape](images/_DSF5509.jpg)
+
+<div class="image-caption">Union Canal landscape</div>
+
+</div>
+
+<div class="image-item">
+
+![Tranquil canal towpath](images/_DSF5515.jpg)
+
+<div class="image-caption">Tranquil canal towpath</div>
+
+</div>
+
+<div class="image-item">
+
+![Final stretch to Polmont](images/_DSF5522.jpg)
+
+<div class="image-caption">Final stretch to Polmont</div>
+
+</div>
+
+</div>
