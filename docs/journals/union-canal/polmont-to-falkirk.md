@@ -1,4 +1,4 @@
-# Polmont To Falkirk
+# Polmont To Falkirk Wheel
 
 ## Walk Metadata
 

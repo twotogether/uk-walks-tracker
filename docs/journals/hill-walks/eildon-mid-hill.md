@@ -47,6 +47,87 @@ Start from Melrose town centre and follow the marked path up the slope. The terr
 
 ## Photos
 
-```{figure} images/eildon-mid-hill-view.jpg
-The distinctive triple peaks of the Eildon Hills.
-```
+<div class="image-gallery">
+
+<div class="image-item">
+
+![Melrose panorama](images/eildon-mid-hill/_DSF5305.jpg)
+
+<div class="image-caption">Melrose panorama</div>
+
+</div>
+
+<div class="image-item">
+
+![Spring gorse on the hillside](images/eildon-mid-hill/_DSF5311.jpg)
+
+<div class="image-caption">Spring gorse on the hillside</div>
+
+</div>
+
+<div class="image-item">
+
+![Blackthorn blossoms](images/eildon-mid-hill/_DSF5307.jpg)
+
+<div class="image-caption">Blackthorn blossoms</div>
+
+</div>
+
+<div class="image-item">
+
+![More gorse](images/eildon-mid-hill/_DSF5310.jpg)
+
+<div class="image-caption">More gorse</div>
+
+</div>
+
+<div class="image-item">
+
+![Borders landscape](images/eildon-mid-hill/_DSF5314.jpg)
+
+<div class="image-caption">Borders landscape</div>
+
+</div>
+
+<div class="image-item">
+
+![Eildon North Hill](images/eildon-mid-hill/_DSF5316.jpg)
+
+<div class="image-caption">Eildon North Hill</div>
+
+</div>
+
+<div class="image-item">
+
+![Eildon Mid Hill](images/eildon-mid-hill/_DSF5327.jpg)
+
+<div class="image-caption">Eildon Mid Hill</div>
+
+</div>
+
+<div class="image-item">
+
+![Panoramic Borders vista](images/eildon-mid-hill/_DSF5320.jpg)
+
+<div class="image-caption">Panoramic Borders vista</div>
+
+</div>
+
+<div class="image-item">
+
+![At the summit trig point](images/eildon-mid-hill/_DSF5324.jpg)
+
+<div class="image-caption">At the summit trig point</div>
+
+</div>
+
+<div class="image-item">
+
+![Descent path through moorland](images/eildon-mid-hill/_DSF5330.jpg)
+
+<div class="image-caption">Descent path through moorland</div>
+
+</div>
+
+</div>
+

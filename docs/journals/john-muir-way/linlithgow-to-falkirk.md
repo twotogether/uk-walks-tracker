@@ -1,4 +1,4 @@
-# Linlithgow To Falkirk
+# Linlithgow To Falkirk High
 
 ## Walk Metadata
 
@@ -31,7 +31,7 @@
 
 | Section Walked  | Distance | Date |
 | --------------- | -------- | ---- |
-| Linlithgow to Falkirk | 10.5 km |  |
+| Linlithgow to Falkirk High | 10.5 km |  |
 
 ## Description
 
@@ -40,3 +40,7 @@ Add walk description here.
 ## Notes
 
 - Add notes, photos, and links here.
+
+## Photos
+
+See [Linlithgow to Polmont](../union-canal/linlithgow-to-polmont.md) and [Polmont to Falkirk Wheel](../union-canal/polmont-to-falkirk.md) for photos from the Union Canal route.

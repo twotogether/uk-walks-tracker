@@ -27,7 +27,7 @@ WESTERN SECTIONS (coming soon):
 
 9. `South Queensferry to Bo'ness <south-queensferry-to-boness.html>`_ | 15 KM
 10. Bo'ness to Linlithgow (coming soon)
-11. `Linlithgow to Falkirk** <linlithgow-to-falkirk.html>`_ | 10.5 KM
+11. `Linlithgow to Falkirk High** <linlithgow-to-falkirk.html>`_ | 10.5 KM
 
 - *We walked this section in the opposite direction
 - ** Walked as part of the Union Canal Path, which is a shared section with the John Muir Way
