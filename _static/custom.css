@@ -1,0 +1,95 @@
+/* Furo theme enhancements for UK Walks Tracker */
+
+/* Image gallery grid - responsive */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-item:hover {
+    transform: translateY(-4px);
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.3s ease;
+}
+
+.image-item img:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+/* Image captions */
+.image-caption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.75rem;
+    color: var(--color-foreground-secondary, #555);
+    width: 100%;
+    font-size: 0.95rem;
+}
+
+/* Table styling - full width */
+table {
+    width: 100% !important;
+    table-layout: auto;
+}
+
+.tablenoborder {
+    width: 100% !important;
+}
+
+/* Ensure table containers also expand */
+.table-wrapper {
+    width: 100%;
+}
+
+/* Inline code styling - maroon */
+code,
+code.literal,
+.rst-content code {
+    color: #8B0000;
+    background-color: rgba(139, 0, 0, 0.1);
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Heading sizes */
+h2,
+.heading-h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+h3,
+.heading-h3 {
+    font-size: 1.2rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.6rem;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .image-item img {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .image-item img:hover {
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+
+}
