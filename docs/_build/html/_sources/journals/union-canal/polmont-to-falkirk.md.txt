@@ -48,3 +48,89 @@ A scenic walk from Polmont to Falkirk along the Union Canal, featuring gentle to
   - There's a Sainsbury's Local near Polmont station
   - Cafes available at Falkirk Wheel
 - **Public Toilets**: No public toilets in Polmont. Polmont Station toilets are only available when the ticket office is open. Facilities are available at Falkirk Wheel.
+
+## Photos
+
+<div class="image-gallery">
+
+<div class="image-item">
+
+![Union Canal leaving Polmont](images/_DSF5433.jpg)
+
+<div class="image-caption">Union Canal leaving Polmont</div>
+
+</div>
+
+<div class="image-item">
+
+![Another bridge over the Union Canal](images/_DSF5438.jpg)
+
+<div class="image-caption">Another bridge over the Union Canal</div>
+
+</div>
+
+<div class="image-item">
+
+![Blossoms along the canal](images/_DSF5440.jpg)
+
+<div class="image-caption">Blossoms along the canal</div>
+
+</div>
+
+<div class="image-item">
+
+![Boat spotting along the canal](images/_DSF5454.jpg)
+
+<div class="image-caption">Boat spotting along the canal</div>
+
+</div>
+
+<div class="image-item">
+
+![Arched stone bridge over the canal](images/_DSF5471.jpg)
+
+<div class="image-caption">Arched stone bridge over the canal</div>
+
+</div>
+
+<div class="image-item">
+
+![Inside the atmospheric Falkirk Tunnel](images/_DSF5480.jpg)
+
+<div class="image-caption">Inside the atmospheric Falkirk Tunnel</div>
+
+</div>
+
+<div class="image-item">
+
+![Gorse-filled pathways](images/_DSF5504.jpg)
+
+<div class="image-caption">Gorse-filled pathways</div>
+
+</div>
+
+<div class="image-item">
+
+![Falkirk Locks](images/_DSF5509.jpg)
+
+<div class="image-caption">Falkirk Locks</div>
+
+</div>
+
+<div class="image-item">
+
+![Approaching the iconic Falkirk Wheel](images/_DSF5515.jpg)
+
+<div class="image-caption">Approaching the iconic Falkirk Wheel</div>
+
+</div>
+
+<div class="image-item">
+
+![The spectacular Falkirk Wheel boat lift](images/_DSF5522.jpg)
+
+<div class="image-caption">The spectacular Falkirk Wheel boat lift</div>
+
+</div>
+
+</div>
